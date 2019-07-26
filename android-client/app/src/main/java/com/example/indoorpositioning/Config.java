@@ -6,5 +6,5 @@ package com.example.indoorpositioning;
 
 public class Config {
 
-    public static final String BASE_URL = "http://your-server.url.com";
+    public static final String BASE_URL = "http://172.16.76.36:8080/backend";
 }

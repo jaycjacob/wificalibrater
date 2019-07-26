@@ -211,7 +211,6 @@ public class SwipeDismissListViewTouchListener implements View.OnTouchListener {
                 }
                 return false;
             }
-
             case MotionEvent.ACTION_CANCEL: {
                 if (mVelocityTracker == null) {
                     break;

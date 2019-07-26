@@ -56,7 +56,7 @@ public class FetchData extends AsyncTask<String, Integer, String> {
         // Create a new HttpClient and Post Header
         HttpClient httpclient = new DefaultHttpClient();
         HttpGet httpGet = new HttpGet(baseUrl + "");
-        String json = null;
+        String json =null;
 
         try {
             // Add your data

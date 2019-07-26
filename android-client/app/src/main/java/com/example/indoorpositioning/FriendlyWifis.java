@@ -25,7 +25,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FriendlyWifis extends Activity {
+public class   FriendlyWifis extends Activity {
 	private static final int PERMISSIONS_REQUEST_CODE_ACCESS_COARSE_LOCATION =  1;
 	private Button addWifi;
 	WifiManager wifi;

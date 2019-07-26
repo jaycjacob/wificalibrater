@@ -60,7 +60,6 @@ public class Positions extends Activity {
     static final int SCAN_REQUEST = 0;
     Button friendlyWifisButton;
 
-    private List<PositionData> positionsData;
     private PositionData positionData;
     private String building;
     Gson gson;
@@ -88,7 +87,7 @@ public class Positions extends Activity {
         resultsText = "";
 
         positionCount = 0;
-        positionsData = new ArrayList<PositionData>();
+        List<PositionData> positionsData = new ArrayList<PositionData>();
         Intent intent = getIntent();
         // readingCount = Integer.parseInt(intent
         // .getStringExtra("NUMBER_OF_SECONDS"));

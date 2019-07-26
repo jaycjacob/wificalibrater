@@ -61,7 +61,6 @@ public class Scan extends Activity {
 		warning = (TextView) findViewById(R.id.TextView1);
 		timeRemaining = (TextView) findViewById(R.id.TextView2);
 		calibrate = (Button) findViewById(R.id.start);
-		
 		wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
 		Intent intent = getIntent();
 
