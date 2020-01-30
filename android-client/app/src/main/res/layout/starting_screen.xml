@@ -2,48 +2,90 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
 
 
     <Button
+        android:id="@+id/learn_button"
         android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
-        android:text="Learn"
-        android:id="@+id/learn_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:layout_gravity="center_horizontal"
-        android:layout_above="@+id/locate_button"
-        android:layout_alignLeft="@+id/locate_button"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="375dp"
+        android:background="@drawable/custom_button"
         android:onClick="onClick"
-        android:layout_alignStart="@+id/locate_button" />
+        android:text="Learn" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="159dp"
+        android:layout_marginRight="159dp"
+        android:layout_marginBottom="445dp"
         android:text="Main Menu"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/learn_button"
-        android:id="@+id/textView" />
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:layout_width="@dimen/button_width"
-        android:layout_height="wrap_content"
-        android:text="Locate"
         android:id="@+id/locate_button"
-        android:onClick="onClick"
-        android:layout_gravity="center_horizontal"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
         android:layout_width="@dimen/button_width"
         android:layout_height="wrap_content"
-        android:text="Sync"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="311dp"
+        android:background="@drawable/custom_button"
         android:onClick="onClick"
+        android:text="Locate" />
+
+    <Button
         android:id="@+id/sync_button"
-        android:layout_below="@+id/locate_button"
-        android:layout_centerHorizontal="true"
-        />
+        android:layout_width="@dimen/button_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="243dp"
+        android:background="@drawable/custom_button"
+        android:onClick="onClick"
+        android:text="Sync" />
 
 
 </RelativeLayout>
